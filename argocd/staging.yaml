@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+
+metadata:
+  name: staging
+  namespace: argocd
+
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/DipHuy/HCMUS-Intro_DevOps-gitops-spring-petclinic-microservices.git
+    targetRevision: main
+    path: Helm
+
+    helm:
+      valueFiles:
+        - values-staging.yaml
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: staging
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+
+    syncOptions:
+      - CreateNamespace=true
