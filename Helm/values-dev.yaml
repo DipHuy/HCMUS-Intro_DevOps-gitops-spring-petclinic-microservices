@@ -3,47 +3,47 @@ services:
   discovery-server:
     image:
       repository: diphuy/spring-petclinic-discovery-server
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30161
 
   config-server:
     image:
       repository: diphuy/spring-petclinic-config-server
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30188
 
   admin-server:
     image:
       repository: diphuy/spring-petclinic-admin-server
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30190
 
   api-gateway:
     image:
       repository: diphuy/spring-petclinic-api-gateway
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30180
 
   customers-service:
     image:
       repository: diphuy/spring-petclinic-customers-service
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30181
 
   visits-service:
     image:
       repository: diphuy/spring-petclinic-visits-service
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30182
 
   vets-service:
     image:
       repository: diphuy/spring-petclinic-vets-service
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30183
 
   genai-service:
     image:
       repository: diphuy/spring-petclinic-genai-service
-      tag: null
+      tag: D:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30184
