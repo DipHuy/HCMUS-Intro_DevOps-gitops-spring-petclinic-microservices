@@ -3,47 +3,47 @@ services:
   discovery-server:
     image:
       repository: diphuy/spring-petclinic-discovery-server
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30161
 
   config-server:
     image:
       repository: diphuy/spring-petclinic-config-server
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30188
 
   admin-server:
     image:
       repository: diphuy/spring-petclinic-admin-server
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30190
 
   api-gateway:
     image:
       repository: diphuy/spring-petclinic-api-gateway
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30180
 
   customers-service:
     image:
       repository: diphuy/spring-petclinic-customers-service
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30181
 
   visits-service:
     image:
       repository: diphuy/spring-petclinic-visits-service
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30182
 
   vets-service:
     image:
       repository: diphuy/spring-petclinic-vets-service
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30183
 
   genai-service:
     image:
       repository: diphuy/spring-petclinic-genai-service
-      tag: 7b10363429dce385413eb5b4f2a9074295c53145:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
+      tag: d6605136e735f5830527ff06d541d231f5989ca0:JenkinsAgentsWin_01workspaceCD-Dev>git:JenkinsAgentsWin_01workspaceCD-Dev>git
     nodePort: 30184
