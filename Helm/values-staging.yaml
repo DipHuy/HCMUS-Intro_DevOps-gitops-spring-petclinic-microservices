@@ -3,39 +3,39 @@ services:
   discovery-server:
     image:
       repository: diphuy/spring-petclinic-discovery-server
-      tag: latest
+      tag: v1.0.4
 
   config-server:
     image:
       repository: diphuy/spring-petclinic-config-server
-      tag: latest
+      tag: v1.0.4
 
   admin-server:
     image:
       repository: diphuy/spring-petclinic-admin-server
-      tag: latest
+      tag: v1.0.4
 
   api-gateway:
     image:
       repository: diphuy/spring-petclinic-api-gateway
-      tag: latest
+      tag: v1.0.4
 
   customers-service:
     image:
       repository: diphuy/spring-petclinic-customers-service
-      tag: latest
+      tag: v1.0.4
 
   visits-service:
     image:
       repository: diphuy/spring-petclinic-visits-service
-      tag: latest
+      tag: v1.0.4
 
   vets-service:
     image:
       repository: diphuy/spring-petclinic-vets-service
-      tag: latest
+      tag: v1.0.4
 
   genai-service:
     image:
       repository: diphuy/spring-petclinic-genai-service
-      tag: latest
+      tag: v1.0.4
