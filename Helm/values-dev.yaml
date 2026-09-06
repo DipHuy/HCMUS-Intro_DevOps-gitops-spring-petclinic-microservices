@@ -3,47 +3,47 @@ services:
   discovery-server:
     image:
       repository: diphuy/spring-petclinic-discovery-server
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30161
 
   config-server:
     image:
       repository: diphuy/spring-petclinic-config-server
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30188
 
   admin-server:
     image:
       repository: diphuy/spring-petclinic-admin-server
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30190
 
   api-gateway:
     image:
       repository: diphuy/spring-petclinic-api-gateway
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30180
 
   customers-service:
     image:
       repository: diphuy/spring-petclinic-customers-service
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30181
 
   visits-service:
     image:
       repository: diphuy/spring-petclinic-visits-service
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30182
 
   vets-service:
     image:
       repository: diphuy/spring-petclinic-vets-service
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30183
 
   genai-service:
     image:
       repository: diphuy/spring-petclinic-genai-service
-      tag: 1471a44486c2d49aea1e1d06661f3300dddc0ef7
+      tag: 3a630b2e5a3a294d9d670ae24da4a318e2783260
     nodePort: 30184
