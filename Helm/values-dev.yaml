@@ -3,47 +3,47 @@ services:
   discovery-server:
     image:
       repository: diphuy/spring-petclinic-discovery-server
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30161
 
   config-server:
     image:
       repository: diphuy/spring-petclinic-config-server
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30188
 
   admin-server:
     image:
       repository: diphuy/spring-petclinic-admin-server
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30190
 
   api-gateway:
     image:
       repository: diphuy/spring-petclinic-api-gateway
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30180
 
   customers-service:
     image:
       repository: diphuy/spring-petclinic-customers-service
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30181
 
   visits-service:
     image:
       repository: diphuy/spring-petclinic-visits-service
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30182
 
   vets-service:
     image:
       repository: diphuy/spring-petclinic-vets-service
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30183
 
   genai-service:
     image:
       repository: diphuy/spring-petclinic-genai-service
-      tag: latest
+      tag: fd206c612498b60cab626201dcd0676012bb2571
     nodePort: 30184

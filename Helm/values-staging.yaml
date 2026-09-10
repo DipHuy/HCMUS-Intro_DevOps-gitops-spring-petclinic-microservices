@@ -3,47 +3,39 @@ services:
   discovery-server:
     image:
       repository: diphuy/spring-petclinic-discovery-server
-      tag: latest
-    nodePort: 30261
+      tag: v1.0.4
 
   config-server:
     image:
       repository: diphuy/spring-petclinic-config-server
-      tag: latest
-    nodePort: 30288
+      tag: v1.0.4
 
   admin-server:
     image:
       repository: diphuy/spring-petclinic-admin-server
-      tag: latest
-    nodePort: 30290
+      tag: v1.0.4
 
   api-gateway:
     image:
       repository: diphuy/spring-petclinic-api-gateway
-      tag: latest
-    nodePort: 30280
+      tag: v1.0.4
 
   customers-service:
     image:
       repository: diphuy/spring-petclinic-customers-service
-      tag: latest
-    nodePort: 30281
+      tag: v1.0.4
 
   visits-service:
     image:
       repository: diphuy/spring-petclinic-visits-service
-      tag: latest
-    nodePort: 30282
+      tag: v1.0.4
 
   vets-service:
     image:
       repository: diphuy/spring-petclinic-vets-service
-      tag: latest
-    nodePort: 30283
+      tag: v1.0.4
 
   genai-service:
     image:
       repository: diphuy/spring-petclinic-genai-service
-      tag: latest
-    nodePort: 30284
+      tag: v1.0.4
